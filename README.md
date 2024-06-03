@@ -6,5 +6,7 @@
 ![image](https://github.com/Kirikk44/DiplomModel/assets/69201580/565d3b5f-d4ea-4906-8656-505b7d23269b)
 
 Сервер предоставляет API:
+
 GET /predicte?uid={uid}&moc={moc}
+
 POST /update
