@@ -12,11 +12,23 @@
 1. Клонировать репозиторий.
 2. Установка зависимостей:
    - Откройте терминал, перейдите в директорию с файлом requirements.txt
+   - Создайте виртуальное окружение:
+        ```
+        python -m venv env
+        ```
+   - Активируйте:  
+        Для windows:
+        ```
+        env\Scripts\activate
+        ```
+        Для Linux:
+        ```
+        source bin\activate
+        ```
    - Необходимо установить все зависимости из файла requirements.txt, с помощью команды:
-   
-   ```
-   pip install -r requirements.txt
-   ```
+     
+         pip install -r requirements.txt
+     
 4. Запуск сервера
    -  Выполните команду:
    
